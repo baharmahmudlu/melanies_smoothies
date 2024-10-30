@@ -1,7 +1,11 @@
 import streamlit as st
 from snowflake.snowpark.functions import col
 
-streamlit.title("My Parents New Healthy Diner")
+st.title("My Parents New Healthy Diner")
+st.header("Breakfast Menu")
+st.text("Omega 3 & Blueberry Oatmeal")
+st.text("Kale,Spinach & Rocket Smoothie")
+st.text("Hard-Boiled Free-Range Egg")
 
 # Write directly to the app
 st.title(":cup_with_straw: Customize Your Smoothie! :cup_with_straw:")
